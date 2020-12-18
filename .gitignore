@@ -3,4 +3,5 @@ outputs/*
 *.pyc
 data/*
 paper/*
-
+code/outputs/*
+code/multirun/*

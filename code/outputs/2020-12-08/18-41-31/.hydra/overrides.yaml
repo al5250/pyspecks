@@ -1,5 +1,0 @@
-- embedder.gamma=0.001
-- metric.radius=50
-- embedder.k=50
-- cluster_alg.k=50
-- cluster_alg.n_init=10

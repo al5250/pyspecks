@@ -1,5 +1,0 @@
-- embedder.gamma=1
-- cluster_alg.n_init=10
-- embedder.k=5
-- cluster_alg.k=5
-- image.axis=transverse

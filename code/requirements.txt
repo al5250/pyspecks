@@ -2,4 +2,5 @@ numpy
 scipy
 torch
 matplotlib
-
+scikit-learn
+hydra-core
