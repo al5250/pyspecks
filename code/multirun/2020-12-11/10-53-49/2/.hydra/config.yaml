@@ -1,0 +1,23 @@
+image:
+  _target_: pyspecks.dataloading.MRImage
+  path: ${hydra:runtime.cwd}/../data/subject04_processed.npy
+  axis: transverse
+  normalize: true
+  noise: 0.0
+embedder:
+  _target_: pyspecks.embedding.SpectralEmbedder
+  k: 10
+  gamma: 0.001
+  use_random_walk: false
+  device: null
+  seed: null
+cluster_alg:
+  _target_: pyspecks.clustering.KMeans
+  k: 10
+  n_init: 10
+  seed: null
+metric:
+  _target_: pyspecks.metrics.EuclideanDistance
+  radius: 10
+  normalize: 0.0
+  keep_frac: null

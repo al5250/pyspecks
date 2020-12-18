@@ -1,0 +1,3 @@
+- embedder.gamma=0.03
+- image.axis=transverse
+- cluster_alg.n_init=1

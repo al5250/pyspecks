@@ -1,0 +1,6 @@
+# @package _group_
+_target_: pyspecks.dataloading.MRImage
+path: ${hydra:runtime.cwd}/../data/subject04_processed.npy
+axis: transverse
+normalize: True
+noise: 0.

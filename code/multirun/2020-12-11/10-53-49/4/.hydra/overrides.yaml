@@ -1,0 +1,6 @@
+- cluster_alg.n_init=10
+- image.axis=transverse
+- metric.radius=50
+- embedder.gamma=0.001
+- cluster_alg.k=10
+- embedder.k=10

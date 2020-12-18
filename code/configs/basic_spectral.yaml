@@ -1,0 +1,5 @@
+defaults:
+  - image: mri
+  - embedder: spectral
+  - cluster_alg: kmeans
+  - metric: euclidean

@@ -1,0 +1,5 @@
+# @package _group_
+_target_: pyspecks.clustering.KMeans
+k: 4
+n_init: 1
+seed: ~

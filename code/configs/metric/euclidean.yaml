@@ -1,0 +1,5 @@
+# @package _group_
+_target_: pyspecks.metrics.EuclideanDistance
+radius: ~
+normalize: 0.
+keep_frac: ~
